@@ -11,7 +11,7 @@
 @class appListiPadViewController;
 
 @interface appListiPadAppDelegate : NSObject <UIApplicationDelegate> {
-
+    int aq;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
