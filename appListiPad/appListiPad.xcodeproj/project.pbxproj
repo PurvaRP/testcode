@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14ED30C613B3236000D32916 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14ED30C513B3236000D32916 /* UIKit.framework */; };
+		14ED30C813B3236000D32916 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14ED30C713B3236000D32916 /* Foundation.framework */; };
+		14ED30CA13B3236000D32916 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14ED30C913B3236000D32916 /* CoreGraphics.framework */; };
+		14ED30D013B3236000D32916 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14ED30CE13B3236000D32916 /* InfoPlist.strings */; };
+		14ED30D313B3236000D32916 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14ED30D213B3236000D32916 /* main.m */; };
+		14ED30D613B3236000D32916 /* appListiPadAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14ED30D513B3236000D32916 /* appListiPadAppDelegate.m */; };
+		14ED30D913B3236000D32916 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14ED30D713B3236000D32916 /* MainWindow.xib */; };
+		14ED30DC13B3236000D32916 /* appListiPadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14ED30DB13B3236000D32916 /* appListiPadViewController.m */; };
+		14ED30DF13B3236000D32916 /* appListiPadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14ED30DD13B3236000D32916 /* appListiPadViewController.xib */; };
+		14ED30E613B3240C00D32916 /* Hello World.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 14ED30E513B3240C00D32916 /* Hello World.rtf */; };
+		14ED30E813B3282700D32916 /* 05tutorial_reading.txt in Resources */ = {isa = PBXBuildFile; fileRef = 14ED30E713B3282700D32916 /* 05tutorial_reading.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14ED30C113B3236000D32916 /* appListiPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appListiPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14ED30C513B3236000D32916 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		14ED30C713B3236000D32916 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		14ED30C913B3236000D32916 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		14ED30CD13B3236000D32916 /* appListiPad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "appListiPad-Info.plist"; sourceTree = "<group>"; };
+		14ED30CF13B3236000D32916 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14ED30D113B3236000D32916 /* appListiPad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "appListiPad-Prefix.pch"; sourceTree = "<group>"; };
+		14ED30D213B3236000D32916 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14ED30D413B3236000D32916 /* appListiPadAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = appListiPadAppDelegate.h; sourceTree = "<group>"; };
+		14ED30D513B3236000D32916 /* appListiPadAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appListiPadAppDelegate.m; sourceTree = "<group>"; };
+		14ED30D813B3236000D32916 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		14ED30DA13B3236000D32916 /* appListiPadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = appListiPadViewController.h; sourceTree = "<group>"; };
+		14ED30DB13B3236000D32916 /* appListiPadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appListiPadViewController.m; sourceTree = "<group>"; };
+		14ED30DE13B3236000D32916 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/appListiPadViewController.xib; sourceTree = "<group>"; };
+		14ED30E513B3240C00D32916 /* Hello World.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "Hello World.rtf"; sourceTree = "<group>"; };
+		14ED30E713B3282700D32916 /* 05tutorial_reading.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 05tutorial_reading.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14ED30BE13B3236000D32916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14ED30C613B3236000D32916 /* UIKit.framework in Frameworks */,
+				14ED30C813B3236000D32916 /* Foundation.framework in Frameworks */,
+				14ED30CA13B3236000D32916 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14ED30B613B3235F00D32916 = {
+			isa = PBXGroup;
+			children = (
+				14ED30CB13B3236000D32916 /* appListiPad */,
+				14ED30C413B3236000D32916 /* Frameworks */,
+				14ED30C213B3236000D32916 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14ED30C213B3236000D32916 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14ED30C113B3236000D32916 /* appListiPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14ED30C413B3236000D32916 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14ED30C513B3236000D32916 /* UIKit.framework */,
+				14ED30C713B3236000D32916 /* Foundation.framework */,
+				14ED30C913B3236000D32916 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14ED30CB13B3236000D32916 /* appListiPad */ = {
+			isa = PBXGroup;
+			children = (
+				14ED30D413B3236000D32916 /* appListiPadAppDelegate.h */,
+				14ED30D513B3236000D32916 /* appListiPadAppDelegate.m */,
+				14ED30D713B3236000D32916 /* MainWindow.xib */,
+				14ED30DA13B3236000D32916 /* appListiPadViewController.h */,
+				14ED30DB13B3236000D32916 /* appListiPadViewController.m */,
+				14ED30DD13B3236000D32916 /* appListiPadViewController.xib */,
+				14ED30CC13B3236000D32916 /* Supporting Files */,
+			);
+			path = appListiPad;
+			sourceTree = "<group>";
+		};
+		14ED30CC13B3236000D32916 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14ED30E713B3282700D32916 /* 05tutorial_reading.txt */,
+				14ED30E513B3240C00D32916 /* Hello World.rtf */,
+				14ED30CD13B3236000D32916 /* appListiPad-Info.plist */,
+				14ED30CE13B3236000D32916 /* InfoPlist.strings */,
+				14ED30D113B3236000D32916 /* appListiPad-Prefix.pch */,
+				14ED30D213B3236000D32916 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14ED30C013B3236000D32916 /* appListiPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14ED30E213B3236000D32916 /* Build configuration list for PBXNativeTarget "appListiPad" */;
+			buildPhases = (
+				14ED30BD13B3236000D32916 /* Sources */,
+				14ED30BE13B3236000D32916 /* Frameworks */,
+				14ED30BF13B3236000D32916 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = appListiPad;
+			productName = appListiPad;
+			productReference = 14ED30C113B3236000D32916 /* appListiPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14ED30B813B3235F00D32916 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 14ED30BB13B3235F00D32916 /* Build configuration list for PBXProject "appListiPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 14ED30B613B3235F00D32916;
+			productRefGroup = 14ED30C213B3236000D32916 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14ED30C013B3236000D32916 /* appListiPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14ED30BF13B3236000D32916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14ED30D013B3236000D32916 /* InfoPlist.strings in Resources */,
+				14ED30D913B3236000D32916 /* MainWindow.xib in Resources */,
+				14ED30DF13B3236000D32916 /* appListiPadViewController.xib in Resources */,
+				14ED30E613B3240C00D32916 /* Hello World.rtf in Resources */,
+				14ED30E813B3282700D32916 /* 05tutorial_reading.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14ED30BD13B3236000D32916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14ED30D313B3236000D32916 /* main.m in Sources */,
+				14ED30D613B3236000D32916 /* appListiPadAppDelegate.m in Sources */,
+				14ED30DC13B3236000D32916 /* appListiPadViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14ED30CE13B3236000D32916 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14ED30CF13B3236000D32916 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		14ED30D713B3236000D32916 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14ED30D813B3236000D32916 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		14ED30DD13B3236000D32916 /* appListiPadViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14ED30DE13B3236000D32916 /* en */,
+			);
+			name = appListiPadViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14ED30E013B3236000D32916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		14ED30E113B3236000D32916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		14ED30E313B3236000D32916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "appListiPad/appListiPad-Prefix.pch";
+				INFOPLIST_FILE = "appListiPad/appListiPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		14ED30E413B3236000D32916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "appListiPad/appListiPad-Prefix.pch";
+				INFOPLIST_FILE = "appListiPad/appListiPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14ED30BB13B3235F00D32916 /* Build configuration list for PBXProject "appListiPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14ED30E013B3236000D32916 /* Debug */,
+				14ED30E113B3236000D32916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14ED30E213B3236000D32916 /* Build configuration list for PBXNativeTarget "appListiPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14ED30E313B3236000D32916 /* Debug */,
+				14ED30E413B3236000D32916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14ED30B813B3235F00D32916 /* Project object */;
+}
